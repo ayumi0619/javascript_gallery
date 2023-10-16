@@ -4,23 +4,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Color Picker</title>
+  <title>JavaScript Sample</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
 
 <body>
-  <header>
-    <h1>Color Picker</h1>
+  
+   <!--ここにHTMLを書きます-->
+   <header>
+    <h1>Photo Gallery</h1>
   </header>
   <main>
-    <div>
-      <p id="bodyText">カラーコードを指定</p>
-      <input id="myColor" type="color">
+    <div class="gallery">
+      <div>
+        <img src="images/img01.png" id="main-image" alt="img01" title="img01">
+      </div>
+      <ul>
+        <li><img src="images/img01.png" alt="img01" title="img01" class="thumb" data-image="images/img01.png"></li>
+        <li><img src="images/img02.png" alt="img02" title="img02" class="thumb" data-image="images/img02.png"></li>
+        <li><img src="images/img03.png" alt="img03" title="img03" class="thumb" data-image="images/img03.png"></li>
+       
+      </ul>
     </div>
   </main>
+
+  </main>
   <footer>
-    
+
   </footer>
 </body>
 
